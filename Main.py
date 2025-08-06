@@ -17,7 +17,7 @@ def get_news_for_significant_dates(ticker, period, api_key):
     return all_news
 
 if __name__ == "__main__":
-    # === DEMO: Run full pipeline on a real stock ===
+    # === FULL SAMPLE DEMO:  ===
     ticker = "UNH"
     period = "1d"
     api_key = "YOUR_API_KEY"
@@ -43,5 +43,6 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f" Error during processing: {e}")
+
 
 
