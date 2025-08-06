@@ -20,7 +20,7 @@ if __name__ == "__main__":
     # === DEMO: Run full pipeline on a real stock ===
     ticker = "UNH"
     period = "1d"
-    api_key = "d29a47pr01qhoenas9q0d29a47pr01qhoenas9qg"
+    api_key = "YOUR_API_KEY"
 
     print(f"\n Running analysis for {ticker} over {period}...\n")
 
@@ -43,4 +43,5 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f" Error during processing: {e}")
+
 
