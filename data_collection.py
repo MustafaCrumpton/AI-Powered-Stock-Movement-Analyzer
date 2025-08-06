@@ -30,7 +30,7 @@ def get_news_for_significant_dates(ticker, period, api_key): #api key provided b
 
     all_news = []
     for date in sig_dates:
-        articles = get_news_for_ticker(ticker, date, api_key) #TODO this function will be completed later
+        articles = get_news_for_ticker(ticker, date, api_key) 
         for article in articles:
             article["associated_date"] = date
         all_news.extend(articles)
@@ -38,4 +38,5 @@ def get_news_for_significant_dates(ticker, period, api_key): #api key provided b
     return all_news
 
 if __name__ == "__main__":
+
     pass
